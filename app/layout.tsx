@@ -1,6 +1,28 @@
+import { Playfair_Display, Poppins } from "next/font/google";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+// const playfair = Playfair_Display({
+//   subsets: ["latin"],
+//   weight: ["600", "700"],
+// });
+
+// const poppins = Poppins({
+//   subsets: ["latin"],
+//   weight: ["400", "500"],
+// });
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-playfair",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-poppins",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,9 +46,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      {/* <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      > */}
+    
+        <body className={`${poppins.variable} ${playfair.variable} font-sans`}>
+
         {children}
       </body>
     </html>
