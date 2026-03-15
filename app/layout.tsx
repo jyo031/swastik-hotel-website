@@ -49,7 +49,7 @@ export const metadata = {
     "Hotel near Ganga Rishikesh",
     "Stay near Janki Setu",
     "Hotel Swastik",
-    "hotel swastik"
+    "Swastik Hotel"
   ],
   verification: {
     google: "R2_bu2bt-3In3mNp8nJNR3AdobPZ3ti_VPrTVe5a-hI",
@@ -112,3 +112,5 @@ dangerouslySetInnerHTML={{
     </html>
   );
 }
+
+
