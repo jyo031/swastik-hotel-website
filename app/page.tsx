@@ -354,7 +354,7 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
   className="rounded-2xl shadow-lg"
 ></iframe>
 <a
-  href="https://www.google.com/maps/dir/?api=1&destination=30.114415,78.302336"
+  href="https://www.google.com/maps/dir/?api=1&destination=30.114544,78.303061"
   target="_blank"
   className="inline-block mt-6 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-full shadow-lg transition"
 >
