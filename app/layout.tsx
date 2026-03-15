@@ -84,25 +84,35 @@ export default function RootLayout({
       > */}
     <body className={`${poppins.variable} ${playfair.variable} font-sans`}>
 
-  <script
-type="application/ld+json"
-dangerouslySetInnerHTML={{
-  __html: JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Hotel",
-    "name": "Swastik Hotel",
-   "address": {
-  "@type": "PostalAddress",
-  "streetAddress": "Near Ram Jhula / Tapovan",
-  "addressLocality": "Rishikesh",
-  "addressRegion": "Uttarakhand",
-  "postalCode": "249192",
-  "addressCountry": "IN"
-},
-    "telephone": "+919756066660",
-    "url": "https://www.thehotelswastik.com/"
-  })
-}}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Swastik Hotel",
+      "url": "https://thehotelswastik.com",
+      "telephone": "+91 9756066660",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Ram Jhula, Tapovan",
+        "addressLocality": "Rishikesh",
+        "addressRegion": "Uttarakhand",
+        "postalCode": "249192",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "30.114415",
+        "longitude": "78.302336"
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Free WiFi" },
+        { "@type": "LocationFeatureSpecification", "name": "AC Rooms" },
+        { "@type": "LocationFeatureSpecification", "name": "Family Friendly Stay" }
+      ]
+    })
+  }}
 />
 
   {children}
