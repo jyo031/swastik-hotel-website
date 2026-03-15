@@ -54,6 +54,22 @@ export const metadata = {
   verification: {
     google: "R2_bu2bt-3In3mNp8nJNR3AdobPZ3ti_VPrTVe5a-hI",
   },
+  openGraph: {
+  title: "Swastik Hotel – Budget Hotel Near Ram Jhula | Rishikesh",
+  description:
+    "Comfortable and affordable stay near Ram Jhula and Ganga in Rishikesh. AC rooms, WiFi, parking.",
+  url: "https://www.thehotelswastik.com/",
+  siteName: "Swastik Hotel",
+  images: [
+    {
+      url: "/images/hotel-front.jpeg",
+      width: 1200,
+      height: 630,
+    },
+  ],
+  locale: "en_IN",
+  type: "website",
+},
 };
 
 export default function RootLayout({
@@ -82,7 +98,7 @@ export default function RootLayout({
           addressRegion: "Uttarakhand",
           addressCountry: "India"
         },
-        url: "https://thehotelswastik.com"
+        url: "https://www.thehotelswastik.com/"
       })
     }}
   />

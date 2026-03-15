@@ -416,6 +416,12 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
       >
         WhatsApp
       </a>
+      <a
+  href="tel:+919756066660"
+  className="fixed bottom-20 right-6 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-full shadow-lg transition"
+>
+  Call Now
+</a>
 
 {/* FOOTER */}
 <footer className="bg-gray-900 text-white py-10 text-center">
