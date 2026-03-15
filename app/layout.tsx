@@ -66,11 +66,31 @@ export default function RootLayout({
       {/* <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       > */}
-    
-        <body className={`${poppins.variable} ${playfair.variable} font-sans`}>
+    <body className={`${poppins.variable} ${playfair.variable} font-sans`}>
 
-        {children}
-      </body>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        name: "Swastik Hotel",
+        telephone: "+91 9756066660",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Rishikesh",
+          addressRegion: "Uttarakhand",
+          addressCountry: "India"
+        },
+        url: "https://thehotelswastik.com"
+      })
+    }}
+  />
+
+  {children}
+
+</body>
+ 
     </html>
   );
 }
