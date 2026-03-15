@@ -140,7 +140,7 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
       className="bg-emerald-600 hover:bg-emerald-700 px-10 py-4 rounded-full text-lg shadow-2xl transition duration-300"
     > */}
        <a
-      href="https://wa.me/919756066660"
+  href="https://wa.me/919756066660?text=Hello%20Swastik%20Hotel%2C%20I%20want%20to%20check%20room%20availability."
       target="_blank"
       className="bg-emerald-600 hover:bg-emerald-700 px-10 py-4 rounded-full text-lg shadow-2xl transition duration-300 hover:scale-105 hover:shadow-emerald-500/30"
     >
@@ -410,7 +410,7 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
         className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 transition"
       > */}
          <a
-        href="https://wa.me/919756066660"
+  href="https://wa.me/919756066660?text=Hello%20Swastik%20Hotel%2C%20I%20want%20to%20check%20room%20availability."
         target="_blank"
         className="fixed bottom-6 right-6 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 transition"
       >
@@ -429,7 +429,7 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
     className="bg-green-500 px-6 py-2 rounded-full hover:bg-green-600 transition"
   > */}
     <a
-    href="https://wa.me/919756066660"
+  href="https://wa.me/919756066660?text=Hello%20Swastik%20Hotel%2C%20I%20want%20to%20check%20room%20availability."
     target="_blank"
     className="bg-emerald-600 hover:bg-emerald-700 px-6 py-2 rounded-full hover:bg-green-600 transition"
   >
