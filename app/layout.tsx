@@ -85,23 +85,25 @@ export default function RootLayout({
     <body className={`${poppins.variable} ${playfair.variable} font-sans`}>
 
   <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Hotel",
-        name: "Swastik Hotel",
-        telephone: "+91 9756066660",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Rishikesh",
-          addressRegion: "Uttarakhand",
-          addressCountry: "India"
-        },
-        url: "https://www.thehotelswastik.com/"
-      })
-    }}
-  />
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+  __html: JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Swastik Hotel",
+   "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Near Ram Jhula / Tapovan",
+  "addressLocality": "Rishikesh",
+  "addressRegion": "Uttarakhand",
+  "postalCode": "249192",
+  "addressCountry": "IN"
+},
+    "telephone": "+919756066660",
+    "url": "https://www.thehotelswastik.com/"
+  })
+}}
+/>
 
   {children}
 
