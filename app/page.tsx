@@ -344,6 +344,7 @@ className="absolute inset-0 w-full h-full object-cover scale-110 animate-[slowZo
       className="rounded-2xl shadow-lg"
     ></iframe> */}
     <iframe
+     title="Swastik Hotel Location in Rishikesh"
   src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d862.8233646971636!2d78.30233626962676!3d30.114415158520156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDA2JzUxLjkiTiA3OMKwMTgnMTAuNyJF!5e0!3m2!1sen!2sin!4v1772566961058!5m2!1sen!2sin"
   width="100%"
   height="350"
