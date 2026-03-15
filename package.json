@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "framer-motion": "^12.34.5",
+>>>>>>> 0c3feb4d082c7e17efa3e96b10bcda7d7ac2743f
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
